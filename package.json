@@ -1,0 +1,29 @@
+{
+  "name": "cage-element",
+  "version": "0.0.1",
+  "description": "It changes target dom to be like in a cage with screen.",
+  "scripts": {
+    "compile": "NODE_ENV=develop ./node_modules/.bin/webpack --watch",
+    "start": "./node_modules/.bin/webpack-dev-server --port 3000 --hot --inlne --content-base demo/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuro-daei/adhesion.git"
+  },
+  "author": "Eiji Kuroda",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/kuro-daei/adhesion/issues"
+  },
+  "homepage": "https://github.com/kuro-daei/adhesion#readme",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
